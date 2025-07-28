@@ -1,0 +1,29 @@
+✅ Caratteristiche principali:
+Compatibile con tutte le distribuzioni Linux, inclusa openSUSE e SUSE Linux Enterprise.
+
+Esegue la sostituzione in-place del campo <CodiceFiscale> tramite sed.
+
+Supporta centinaia di file in un'unica esecuzione.
+
+Crea automaticamente una copia di backup (.bak) di ogni file modificato.
+
+Ideale per correzioni massive in ambienti fiscali o amministrativi.
+
+🔧 Requisiti:
+Bash shell
+
+sed (GNU sed consigliato)
+
+Permessi di lettura/scrittura nella directory dei file
+
+🚀 Esecuzione:
+Personalizza il valore NEW_VALUE con il codice fiscale desiderato.
+
+Posiziona lo script nella directory contenente i file.
+
+Esegui con:
+
+bash
+Copia
+Modifica
+./modifica_codice_fiscale.sh
